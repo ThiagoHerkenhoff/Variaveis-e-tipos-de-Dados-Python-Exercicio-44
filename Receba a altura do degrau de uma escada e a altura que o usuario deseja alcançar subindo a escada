@@ -1,0 +1,9 @@
+# 44 - Receba a altura do degrau de uma escada e a altura que o usuario deseja alcançar subindo a escada.
+# Calcule e mostre quantos degraus o usuario deverá subir para atingir seu objetivo.
+
+d = float(input('Informe a altura dos degraus da escada: '))
+a = float(input('Informe a altura que você deseja alcançar: '))
+
+q = a / d
+
+print(f'Você precisa subir {round(q)} degraus para atingir a altura desejada')
